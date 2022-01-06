@@ -1,0 +1,23 @@
+
+
+<div class="container w-50 mt-5 display-6 text-white">
+    <h1 class=" text-center text-white bg-dark mt-3 ">User Registeration</h1>
+<form action="" #ref="ngForm"  (ngSubmit)="onReg(ref)">
+<div class="a mb-3">
+    <label for="us" class="form-label">username</label>
+    <input type="text" class="form-control" id="us" name="username" placeholder="User-name">
+  </div>
+  <div class="a mb-3">
+    <label for="Em" class="form-label">EmailId</label>
+    <input type="email" class="form-control" id="Em" name="email" placeholder="EmailId">
+  </div>
+  <div class="a mb-3">
+    <label for="ps" class="form-label">password</label>
+    <input type="password" class="form-control" id="ps" name="password" placeholder="password">
+  </div>
+
+  <div>
+      <button type="submit" class="btn btn-success d-block mx-auto">Submit</button>
+  </div>
+</form>
+</div>

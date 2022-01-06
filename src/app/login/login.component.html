@@ -1,0 +1,23 @@
+
+
+
+<div class="container w-50 mt-5 text-white display-6">
+    <h1 class=" text-center text-white bg-dark mt-3 ">Login Here</h1>
+    <form action="" #ref="ngForm" (ngSubmit)="onLogin(ref)">
+    <div class="v mb-3 ">
+    
+    <label for="us" class="form-label">Username</label>
+    <input type="text" class="form-control" id="us" name="username" placeholder="User-name" ngModel>
+    </div>
+  
+    <div class="v mb-3">
+    <label for="ps" class="form-label">password</label>
+    <input type="password" class="form-control" id="ps" name="password" placeholder="password" ngModel>
+    </div>
+  
+    <div>
+      <button type="submit" class="btn btn-success d-block mx-auto">login</button>
+    </div>
+    </form>
+  </div>
+  

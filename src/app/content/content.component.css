@@ -1,0 +1,13 @@
+li{
+    background-color: maroon;
+}
+
+li a{
+    color: aliceblue;
+}
+a:focus{
+    background-color: black;
+}
+a:hover{
+    background-color:indigo;
+}
