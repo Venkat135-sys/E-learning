@@ -20,6 +20,7 @@ const routes: Routes = [
   },
   {
     path:'content',component:ContentComponent ,children:[
+      
       {
         path:'maths',component:MathsComponent
       },
